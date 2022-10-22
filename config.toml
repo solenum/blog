@@ -27,7 +27,7 @@ palette = "base16-dark"
 # Sidebar: about/bio
 [params.about]
 title = "egg's blog"
-description = "egg's blog about stuff"
+description = "my blog where I write about stuff and things"
 logo = "images/rice.svg"
 
 # Sidebar: social links

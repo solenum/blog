@@ -16,8 +16,10 @@
 
 {{ if $.IsHome }}
 <ul class="all-posts">
-    {{range .Site.RegularPages }}
+    {{ range .Site.RegularPages }}
+        {{ if not .Params.draft }}
         <li><a href="{{.Permalink}}">{{.Title}}</a></li>
-    {{end}}
+        {{ end }}
+    {{ end }}
 </ul>
 {{ end }}

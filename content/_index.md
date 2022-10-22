@@ -1,3 +1,5 @@
-# index
+# /home/egg/index.html
 
-howdy
+Howdy.
+
+Not much here right now, check the posts page above or the navigation on the right for a list of posts.
