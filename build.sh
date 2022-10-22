@@ -8,3 +8,6 @@ hugo
 
 # move to docs/ for gh pages
 mv public docs
+
+# deploy CNAME
+cp CNAME docs/CNAME
