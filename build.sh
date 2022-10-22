@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# remove old build
+rm -rf docs/
+
 # build the site
 hugo
 
